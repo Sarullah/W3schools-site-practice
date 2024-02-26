@@ -1,0 +1,1741 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Source Sans 3;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    position: relative;
+}
+
+.header .left{
+    width: 50%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+}
+
+.header .left .logo{
+    width: 50px;
+    height: 40px;
+    margin:5px 20px;
+}
+
+.header .left .menu ul{
+ 
+    list-style-type: none;
+    padding: 5px 20px;
+    position: absolute;
+    margin: 15px 60px;
+}
+
+.header .left .menu ul li{
+    display: inline;
+    padding: 5px 20px;
+}
+
+.header .left .menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: rgb(14, 12, 12);
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+}
+
+
+
+
+
+
+
+
+.header .right{
+    width: 50%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0px;    
+}
+
+
+.header .right .menu ul{
+    list-style-type: none;
+    padding: 5px 20px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 180px;
+}
+
+.header .right .menu ul li{
+    display: inline;
+    padding: 10px 10px;
+}
+
+.left .menu i{
+    padding-left:2px;
+    color:rgb(0, 0, 0);
+}
+
+.header .right .menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: rgb(0, 0, 0);
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+}
+
+.right .menu #gift{
+    padding-right:10px;
+    color: green;
+}
+
+.right .menu #snow{
+    padding-right:7px;
+    color:rgb(180, 60, 180);
+}
+
+.header .right .menu .sign{
+    position: absolute;
+    left: 260px;
+}
+
+
+
+
+
+
+
+
+/* ....................SECTION................. */
+
+
+.section1{
+    width: 100%;
+    height: 550px;
+    background-color: #282a35;position: relative;
+    border-radius:0px;
+}
+
+
+
+
+/* .section1 .left{
+    width: 50%;
+    height: 550px;
+    background-color: rgb(250, 184, 184);
+    position: absolute;
+    left: 0px;
+}
+
+.section1 .right{
+    width: 50%;
+    height: 550px;
+    background-color: rgb(37, 173, 144);
+    position: absolute;
+    right: 0px;    
+} */
+
+
+
+.section1 .menu ul li{
+    display: inline;
+    list-style-type: none;
+    padding-left:22px;
+}
+
+.section1 .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.section1 .menu .icons #earth{
+    margin-left: 1280px;
+    color: white; 
+}
+
+
+
+
+
+.section1 .text h1{
+    color: white;
+    font-size: 60px;
+    /* font-family: sans-serif; */
+    position: absolute;
+    left:75vh;
+    top: 25vh;
+}
+
+
+.section1 .text p a{
+    color: white;
+    font-size: 22px;
+    /* font-family: sans-serif; */
+    position: absolute;
+    left:74vh;
+    top: 39vh;
+    text-decoration: none;
+}
+
+
+
+.section1 .text input{
+    width: 501px;
+    height: 46px;
+    border-radius: 20px;
+    position: absolute;
+    top: 45vh;
+    left: 67vh;
+    outline: none;
+    border:none;
+}
+
+.searchicon{
+    width: 123px;
+    height: 46px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #04AA6D;
+    position: absolute;
+    top: 45vh;
+    left: 126vh;
+    text-align: center;
+}
+
+.searchicon i{
+    position: absolute;
+    top: 9px;
+    left: 40px;
+    font-size: 25px;
+}
+
+
+
+.section1 .text .not a{
+    color: white;
+    font-size: 23px;
+    /* font-family: sans-serif; */
+    position: absolute;
+    left:87vh;
+    top: 55vh;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* .....................HTML.................. */
+
+.HTML{
+    width: 100%;
+    height: 600px;
+    background-color: #d9eee1;
+    border-radius:0px;
+    position: relative;
+    top: 500px;
+
+}
+
+
+.HTML .text h1{
+    position: absolute;
+    color: black;
+    font-size: 90px;
+    top: 70px;
+    left: 40vh;
+}
+
+
+
+.HTML .text .the-language{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 30vh;
+    left: 34vh;
+}
+
+
+
+.HTML .text .h5{
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 16px;
+    top: 30vh;
+    padding: 20px;
+    left: 30vh;
+}
+
+
+.HTML .text ul li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    /* font-family: sans-serif; */
+    padding: 14px 30px;
+    margin-left: 10vh;
+    margin-top:10px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+
+    
+}
+
+
+
+.HTML .boxleft{
+    width: 450px;
+    height: 490px;
+    background-color: #d7d8da;
+    position: absolute;
+    left: 110vh;
+    top: 47px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+
+
+
+.HTML .boxleft p{
+    font-size: 26px;
+    /* font-family: sans-serif; */
+    top: 6vh;
+    position: absolute;
+    left: 18px;
+
+}
+.HTML .boxleft img{
+    position: absolute;
+    left: 24px;
+    top: 15vh;
+    
+}
+
+
+.HTML .boxleft button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    /* font-family: sans-serif; */
+    border: none;
+    position: absolute;
+    top:65vh;
+    left: 4vh;
+    cursor: pointer;
+
+
+}
+
+
+.HTML .boxleft button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+/* ..............CSS............... */
+
+
+
+
+.CSS{
+    width: 100%;
+    height: 600px;
+    background-color: #fff4a3;
+    border-radius:0px;
+    position: relative;
+    top: 590px;
+
+}
+
+
+.CSS .text h1{
+    position: absolute;
+    color: black;
+    font-size: 90px;
+    top: 70px;
+    left: 40vh;
+}
+
+
+
+.CSS .text .the-language{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 30vh;
+    left: 34vh;
+}
+
+
+
+.CSS .text .h5{
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 16px;
+    top: 30vh;
+    padding: 20px;
+    left: 30vh;
+}
+
+
+.CSS .text ul li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    /* font-family: sans-serif; */
+    padding: 14px 30px;
+    margin-left: 10vh;
+    margin-top:10px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+
+    
+}
+
+
+
+.CSS .boxleft{
+    width: 450px;
+    height: 490px;
+    background-color: #d7d8da;
+    position: absolute;
+    left: 110vh;
+    top: 47px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+
+}
+
+
+
+
+.CSS .boxleft p{
+    font-size: 26px;
+    font-family: sans-serif;
+    top: 6vh;
+    position: absolute;
+    left: 18px;
+
+}
+.CSS .boxleft img{
+    position: absolute;
+    left: 24px;
+    top: 15vh;
+    
+}
+
+
+.CSS .boxleft button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    /* font-family: sans-serif; */
+    border: none;
+    position: absolute;
+    top:65vh;
+    left: 4vh;
+    cursor: pointer;
+
+
+}
+
+
+.CSS .boxleft button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* ..............JAVASCRIPT............... */
+
+
+
+
+.JAVASCRIPT{
+    width: 100%;
+    height: 600px;
+    background-color: #282a35;
+    border-radius:0px;
+    position: relative;
+    top: 590px;
+
+}
+
+
+.JAVASCRIPT .text h1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    top: 15vh;
+    left: 34vh;
+}
+
+
+
+.JAVASCRIPT .text .the-language{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 30vh;
+    left: 34vh;
+}
+
+
+
+.JAVASCRIPT .text .h5{
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 16px;
+    top: 30vh;
+    padding: 20px;
+    left: 30vh;
+}
+
+
+.JAVASCRIPT .text ul li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 14px 30px;
+    margin-left: 10vh;
+    margin-top:10px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+
+    
+}
+
+
+
+.JAVASCRIPT .boxleft{
+    width: 450px;
+    height: 490px;
+    background-color: #d7d8da;
+    position: absolute;
+    left: 110vh;
+    top: 47px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+
+}
+
+
+
+
+.JAVASCRIPT .boxleft p{
+    font-size: 26px;
+    top: 6vh;
+    position: absolute;
+    left: 18px;
+
+}
+.JAVASCRIPT .boxleft img{
+    position: absolute;
+    left: 24px;
+    top: 15vh;
+    
+}
+
+
+.JAVASCRIPT .boxleft button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top:65vh;
+    left: 4vh;
+    cursor: pointer;
+
+
+}
+
+
+.JAVASCRIPT .boxleft button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* ..............PYTHON............... */
+
+
+
+
+.PYTHON{
+    width: 100%;
+    height: 600px;
+    background-color: #f3ecea;
+    border-radius:0px;
+    position: relative;
+    top: 590px;
+
+}
+
+
+.PYTHON .text h1{
+    position: absolute;
+    color: black;
+    font-size: 70px;
+    top: 15vh;
+    left: 39vh;
+}
+
+
+
+.PYTHON .text .the-language{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 30vh;
+    left: 34vh;
+}
+
+
+
+.PYTHON .text .h5{
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 16px;
+    top: 30vh;
+    padding: 20px;
+    left: 30vh;
+}
+
+
+.PYTHON .text ul li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 14px 30px;
+    margin-left: 10vh;
+    margin-top:10px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+
+    
+}
+
+
+
+.PYTHON .boxleft{
+    width: 450px;
+    height: 490px;
+    background-color: #d7d8da;
+    position: absolute;
+    left: 110vh;
+    top: 47px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+
+}
+
+
+
+
+.PYTHON .boxleft p{
+    font-size: 26px;
+    top: 6vh;
+    position: absolute;
+    left: 18px;
+
+}
+.PYTHON .boxleft img{
+    position: absolute;
+    left: 24px;
+    top: 15vh;
+    
+}
+
+
+.PYTHON .boxleft button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top:65vh;
+    left: 4vh;
+    cursor: pointer;
+}
+
+
+.PYTHON .boxleft button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* ..............SQL............... */
+
+
+
+
+
+.SQL{
+    width: 100%;
+    height: 600px;
+    background-color: #96d4d4;
+    border-radius:0px;
+    position: relative;
+    top: 590px;
+
+}
+
+
+.SQL .text h1{
+    position: absolute;
+    color: black;
+    font-size: 70px;
+    top: 15vh;
+    left: 46vh;
+}
+
+
+
+.SQL .text .the-language{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 30vh;
+    left: 34vh;
+}
+
+
+
+.SQL .text .h5{
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 16px;
+    top: 30vh;
+    padding: 20px;
+    left: 30vh;
+}
+
+
+.SQL .text ul li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 14px 30px;
+    margin-left: 10vh;
+    margin-top:10px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+
+    
+}
+
+
+
+.SQL .boxleft{
+    width: 450px;
+    height: 490px;
+    background-color: #d7d8da;
+    position: absolute;
+    left: 110vh;
+    top: 47px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+
+}
+
+
+
+
+.SQL .boxleft p{
+    font-size: 26px;
+    top: 6vh;
+    position: absolute;
+    left: 18px;
+
+}
+.SQL .boxleft img{
+    position: absolute;
+    left: 24px;
+    top: 15vh;
+    
+}
+
+
+.SQL .boxleft button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top:65vh;
+    left: 4vh;
+    cursor: pointer;
+}
+
+
+.SQL .boxleft button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* <!-- ..................................SECTION2...................... --> */
+
+
+
+
+
+.section2{
+    width: 100%;
+    height: 700vh;
+    background-color: #282a35;
+    position: relative;
+    top: 90vh;
+}
+
+
+
+
+
+/* ...............PHP............... */
+
+.section2 .PHP{
+    background-color: #ffc0c7;
+    width: 90vh;
+    height: 42vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 10vh;
+    left: 7vh;
+
+}
+
+
+.section2 .PHP h1{
+    font-size: 45px;
+    margin-top: 6vh;
+    margin-left: 39vh;
+}
+
+
+
+.section2 .PHP p{
+    font-size: 22px;
+    color: rgb(43, 36, 36);
+    margin-top: 2vh;
+    margin-left: 20vh;
+}
+
+
+.section2 .PHP button a{
+    background-color: #282a35;
+    color: white;
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:30vh;
+    left: 30vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ...............JQUERY............... */
+
+.section2 .JQUERY{
+    background-color: #fff4a3;
+    width: 90vh;
+    height: 42vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 10vh;
+    right: 7vh;
+}
+
+
+.section2 .JQUERY h1{
+    font-size: 45px;
+    margin-top: 6vh;
+    margin-left: 36vh;
+}
+
+
+
+.section2 .JQUERY p{
+    font-size: 22px;
+    color: rgb(43, 36, 36);
+    margin-top: 2vh;
+    margin-left: 20vh;
+}
+
+
+.section2 .JQUERY button a{
+    background-color: #282a35;
+    color: white;
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:30vh;
+    left: 30vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ...............JAVA............... */
+
+.section2 .JAVA{
+    background-color: #f3ecea;
+    width: 90vh;
+    height: 42vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 60vh;
+    left: 7vh;
+}
+
+
+.section2 .JAVA h1{
+    font-size: 45px;
+    margin-top: 6vh;
+    margin-left: 38vh;
+}
+
+
+
+.section2 .JAVA p{
+    font-size: 22px;
+    color: rgb(43, 36, 36);
+    margin-top: 2vh;
+    margin-left: 29vh;
+}
+
+
+.section2 .JAVA button a{
+    background-color: #282a35;
+    color: white;
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:30vh;
+    left: 30vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ...............C++............... */
+
+.section2 .Cplusplus{
+    background-color: #d9eee1;
+    width: 90vh;
+    height: 42vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 60vh;
+    right: 7vh;
+}
+
+
+.section2 .Cplusplus h1{
+    font-size: 45px;
+    margin-top: 6vh;
+    margin-left: 40vh;
+}
+
+
+
+.section2 .Cplusplus p{
+    font-size: 22px;
+    color: rgb(43, 36, 36);
+    margin-top: 2vh;
+    margin-left: 30vh;
+}
+
+
+.section2 .Cplusplus button a{
+    background-color: #282a35;
+    color: white;
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:30vh;
+    left: 30vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ..............W3.CSS................ */
+
+.section2 .W3-CSS{
+    background-color: #96d4d4;
+    width: 90vh;
+    height: 42vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 110vh;
+    left: 7vh;
+}
+
+
+.section2 .W3-CSS h1{
+    font-size: 45px;
+    margin-top: 6vh;
+    margin-left: 33vh;
+}
+
+
+
+.section2 .W3-CSS p{
+    font-size: 19px;
+    color: rgb(43, 36, 36);
+    margin-top: 2vh;
+    margin-left: 10vh;
+}
+
+
+.section2 .W3-CSS button a{
+    background-color: #282a35;
+    color: white;
+    padding: 10px 55px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:30vh;
+    left: 27vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ..............Bootstrap................ */
+
+.section2 .Bootstrap{
+    background-color: #e7e9eb;
+    width: 90vh;
+    height: 42vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 110vh;
+    right: 7vh;
+}
+
+
+.section2 .Bootstrap h1{
+    font-size: 45px;
+    margin-top: 6vh;
+    margin-left: 33vh;
+}
+
+
+
+.section2 .Bootstrap p{
+    font-size: 19px;
+    color: rgb(43, 36, 36);
+    margin-top: 2vh;
+    margin-left: 18vh;
+}
+
+
+.section2 .Bootstrap button a{
+    background-color: #282a35;
+    color: white;
+    padding: 10px 55px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:30vh;
+    left: 27vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ..............C................ */
+
+.section2 .C{
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 175vh;
+    left: -26vh;
+}
+
+
+.section2 .C a{
+    font-size: 35px;
+    padding: 50px 277px;
+    border: none;
+    background-color: #ffc0c7;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+
+}
+
+
+
+
+/* ..............C#................ */
+
+.section2 .Chashsign {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 175vh;
+    right: 6vh;
+}
+
+
+.section2 .Chashsign a{
+    font-size: 35px;
+    padding: 50px 277px;
+    border: none;
+    background-color: #fff4a3;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+/* ..............C#................ */
+
+.section2 .Chashsign {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 175vh;
+    right: 6vh;
+}
+
+
+.section2 .Chashsign a{
+    font-size: 35px;
+    padding: 50px 277px;
+    border: none;
+    background-color: #fff4a3;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ..............R................ */
+
+.section2 .R {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 203vh;
+    left: -25.5vh;
+}
+
+
+.section2 .R a{
+    font-size: 30px;
+    padding: 42px 110px;
+    border: none;
+    background-color: #d7d8da;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ...............Kotlin............... */
+
+.section2 .Kotlin {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 203vh;
+    left: 25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Kotlin a{
+    font-size: 30px;
+    padding: 42px 80px;
+    border: none;
+    background-color: #d9eee1;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+/* ...............Node.js............... */
+
+.section2 .Node-js {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 203vh;
+    left: 77.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Node-js a{
+    font-size: 30px;
+    padding: 42px 80px;
+    border: none;
+    background-color: #96d4d4;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ...............React............... */
+
+.section2 .React {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 203vh;
+    right: 6.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .React a{
+    font-size: 30px;
+    padding: 42px 80px;
+    border: none;
+    background-color: #ffc0c7;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ...............JSON............... */
+
+.section2 .JSON {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 230vh;
+    left: -25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .JSON a{
+    font-size: 30px;
+    padding: 42px 80px;
+    border: none;
+    background-color: #fff4a3;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ...............Vue............... */
+
+.section2 .Vue {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 230vh;
+    left: 25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Vue a{
+    font-size: 30px;
+    padding: 42px 95px;
+    border: none;
+    background-color: #d7d8da;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ...............MySql............... */
+
+.section2 .MySql {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 230vh;
+    left: 77.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .MySql a{
+    font-size: 30px;
+    padding: 42px 87px;
+    border: none;
+    background-color: #d9eee1;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+/* ...............XML............... */
+
+.section2 .XML {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 230vh;
+    right: 6.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .XML a{
+    font-size: 30px;
+    padding: 42px 80px;
+    border: none;
+    background-color: #96d4d4;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...............Sass............... */
+
+.section2 .Sass {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 258vh;
+    left: -25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Sass a{
+    font-size: 30px;
+    padding: 42px 90px;
+    border: none;
+    background-color: #ffc0c7;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ...............Icons............... */
+
+.section2 .Icons {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 258vh;
+    left: 25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Icons a{
+    font-size: 30px;
+    padding: 42px 85px;
+    border: none;
+    background-color: #fff4a3;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ...............RWD............... */
+
+.section2 .RWD {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 258vh;
+    left: 77.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .RWD a{
+    font-size: 30px;
+    padding: 42px 93px;
+    border: none;
+    background-color: #d7d8da;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+/* ...............Graphics............... */
+
+.section2 .Graphics {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 258vh;
+    right: 6.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Graphics a{
+    font-size: 30px;
+    padding: 42px 55px;
+    border: none;
+    background-color: #d9eee1;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ...............SVG............... */
+
+.section2 .SVG {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 287vh;
+    left: -25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .SVG a{
+    font-size: 30px;
+    padding: 42px 90px;
+    border: none;
+    background-color: #fff4a3;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ...............Canvas............... */
+
+.section2 .Canvas {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 287vh;
+    left: 25.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Canvas a{
+    font-size: 30px;
+    padding: 42px 74px;
+    border: none;
+    background-color: #ffc0c7;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ...............Raspberry-Pi............... */
+
+.section2 .Raspberry-Pi {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 287vh;
+    left: 77.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Raspberry-Pi a{
+    font-size: 30px;
+    padding: 42px 45px;
+    border: none;
+    background-color: #fff4a3;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ...............Cyber-Security............... */
+
+.section2 .Cyber-Security {
+    /* background-color: #e7e9eb; */
+    /* width: 90vh; */
+    /* height: 20vh; */
+    border-radius: 10px;
+    position: absolute;
+    top: 287vh;
+    right: 6.5vh;
+    box-sizing: border-box;
+}
+
+
+.section2 .Cyber-Security a{
+    font-size: 30px;
+    padding: 42px 17px;
+    border: none;
+    background-color: #d7d8da;
+    border-radius: 10px;
+    color: black;
+    margin-top: 25vh;
+    margin-left: 33vh;
+    text-decoration: none;
+}
